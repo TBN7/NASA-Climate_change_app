@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/_190661556143252505"/>
+
+    <View
+        android:id="@+id/factory_view"
+        android:layout_width="335dp"
+        android:layout_height="380dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="35dp" />
+
+    <View
+        android:id="@+id/car_view"
+        android:layout_width="180dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="23dp"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="98dp"/>
+    <View
+        android:id="@+id/person_view"
+        android:layout_width="80dp"
+        android:layout_height="230dp"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="80dp"
+        android:layout_marginBottom="78dp"/>
+
+
+    <ImageView
+        android:id="@+id/white"
+        android:visibility="gone"
+        android:layout_width="115dp"
+        android:layout_height="127dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="180dp"
+        android:layout_marginBottom="200dp"
+        android:src="@drawable/termometer_with_red_color_removebg_preview__1_"/>
+
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/red_termo"
+        android:layout_width="115dp"
+        android:layout_height="127dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="180dp"
+        android:layout_marginBottom="200dp"
+        android:src="@drawable/termometer_with_red_color_removebg_preview" />
+
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/yellow_termo"
+        android:layout_width="115dp"
+        android:layout_height="127dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="180dp"
+        android:layout_marginBottom="200dp"
+        android:src="@drawable/termometer_with_red_color__2__removebg_preview" />
+
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/green_termo"
+        android:layout_width="115dp"
+        android:layout_height="127dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="180dp"
+        android:layout_marginBottom="200dp"
+        android:src="@drawable/termometer_with_red_color__1__removebg_preview" />
+
+</FrameLayout>

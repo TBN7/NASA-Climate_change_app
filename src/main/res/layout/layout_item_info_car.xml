@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/info_car"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="normal"
+                android:text="James has his own car that runs on gasoline. He uses it every day to get to work. His vehicle releases approximately 4.6 metric tons of carbon dioxide annually."
+                android:textColor="@color/white"
+                android:background="@color/background2"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="What actions can James take to reduce the amount of released carbon dioxide?"
+                android:textColor="@color/white"
+                android:background="@color/background2"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/a_car_variant"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:textSize="18sp"
+
+                android:text="A. Continue driving his car using fossil fuels"
+                android:textColor="@color/white"
+                android:background="@color/background2"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/b_car_variant"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textStyle="normal"
+                android:text="B. Switch to electric car"
+                android:textColor="@color/white"
+                android:background="@color/background2"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/c_car_variant"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textStyle="normal"
+                android:text="C. Start using public transport"
+                android:textColor="@color/white"
+                android:background="@color/background2"/>
+
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

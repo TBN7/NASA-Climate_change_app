@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IntroActivity"
+    android:background="@color/background2">
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:text="James was the founder of a thermal power plant, one day he stumbles upon an article on the Internet that says “only Ozone layer depletion will lead to an increase in harmful ultraviolet (UV) radiation, which can cause skin cancer, cataracts, weakened immune systems in humans, and damage to plants and marine ecosystems” and he decides to take matters into his own hands”"
+        android:layout_margin="10dp"
+        android:textSize="30sp"/>
+
+</LinearLayout>
